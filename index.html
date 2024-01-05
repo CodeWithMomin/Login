@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       body{
+      
+        background-image: url(images/black-1072366_1920.jpg);
+        
+    }
+    .container{
+        width: 330px;
+        margin:auto;
+        margin-top: 140px;
+        background-color: rgba(0, 0, 0, 0.507);
+        height: 340px;
+        border-radius: 30px;
+        
+
+    }
+    h1{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+       padding-top: 60px;
+       font-size: 25px;
+       
+    }
+    h1{
+            text-align: center ;
+            
+            background: linear-gradient(to Right,
+            #fe015a 35%,rgb(49, 3, 255));
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            color:transparent;
+            animation: gradient 3s linear infinite;
+        }
+        @keyframes gradient {
+
+            0%{
+                background-position: 0% 75%;
+            }
+            50%{
+                background-position: 100% 30%;
+            }
+            100%{
+                background-position: 0% 70%;
+            }
+        }
+
+    input{
+        background:rgb(214, 213, 213);
+        border: none;
+        color: rgb(12, 12, 12);
+        margin-bottom: 15px;
+        text-align: center;
+        border-radius: 18px;
+        border-color: rgb(245, 244, 242);
+      
+    }
+    #submit{
+       
+        margin-left:19%;
+        margin-top: 10px;
+               
+    }
+    form{
+        width:300px;
+        margin: auto;
+        margin-left:75px;
+    }
+    h3 a{
+        color: aliceblue;
+        font-size: 12px;
+       margin-left: 15px;
+     
+       text-decoration: none;
+    }
+    a:hover{
+        background-color: rgba(7, 7, 7, 0.425);
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+       <h1>Debug Entity</h1>
+       <form validate>
+        
+        <input type="text" id="Fname" required  placeholder="Email">
+        <input type="password" id="pwd "required placeholder="password"> <br>
+        <input type="submit" id="submit" value="LOG IN">
+        <br>
+        <h3> <a href="signup.html" target="_blank">Registered as a New User?</a></h3>
+       </form>
+   </div>
+</body>
+</html>
